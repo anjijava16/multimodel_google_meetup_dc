@@ -6,6 +6,7 @@ Google AI
 1. https://github.com/arjunprabhulal/google-adk-masterclass/tree/main/15-mcp-deep-dive
 2. https://arjunprabhulal.com/
 3. https://codelabs.developers.google.com/onramp/instructions#8
+4. https://colab.research.google.com/drive/10aC9vrBD8y_UlR9CcmuXuvBBPnkZ8i7M#scrollTo=jLycvdEmmU5R
 
 # AWS Stuff
 1. https://github.com/aws-samples/sample-multimodal-agent-tutorial/tree/main
