@@ -5,3 +5,7 @@ Google AI
 # Google ADK & References
 1. https://github.com/arjunprabhulal/google-adk-masterclass/tree/main/15-mcp-deep-dive
 2. https://arjunprabhulal.com/
+
+
+# AWS Stuff
+1. https://github.com/aws-samples/sample-multimodal-agent-tutorial/tree/main
