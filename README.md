@@ -10,6 +10,7 @@ Google AI
 5. https://codelabs.developers.google.com/way-back-home-level-0/instructions#4
 6. https://codelabs.developers.google.com/way-back-home-level-1/instructions#0
 7. https://github.com/google-americas/way-back-home/tree/main
+8. https://codelabs.developers.google.com/onramp/instructions#8
 
 # AWS Stuff
 1. https://github.com/aws-samples/sample-multimodal-agent-tutorial/tree/main
@@ -48,3 +49,101 @@ https://waybackhome-dc-789872749985.us-central1.run.app/day1.html
  
  export PATH=/opt/homebrew/share/google-cloud-sdk/bin:"$PATH"
 
+
+welcome@jaisairams-Laptop level_0 % export GOOGLE_CLOUD_PROJECT=$(gcloud config get-value project)
+
+welcome@jaisairams-Laptop level_0 % echo $GOOGLE_CLOUD_PROJECT
+
+
+
+# Day -02
+
+https://waybackhome-dc-789872749985.us-central1.run.app/day2.html
+
+# Lab-1
+1. https://codelabs.developers.google.com/way-back-home-level-0/instructions#0
+
+# Lab-2
+1. https://codelabs.developers.google.com/way-back-home-level-1/instructions#0
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+
+![alt text](image-2.png)
+
+
+## Lab-2 Flow :
+![alt text](image-3.png)
+
+
+```
+
+Service URL: https://mission-analysis-ai-725152276507.us-central1.run.app
+
+
+Service URL: https://mission-analysis-ai-725152276507.us-central1.run.app
+
+
+--> Agents & Apps
+
+
+---> AI Platform
+
+
+
+cd $HOME/way-back-home/level_1
+
+source $HOME/way-back-home/set_env.sh
+
+uv run adk deploy cloud_run \
+  --project=$GOOGLE_CLOUD_PROJECT \
+  --region=$REGION \
+  --service_name=mission-analysis-ai \
+  --with_ui \
+  --a2a \
+  ./agent
+
+
+```
+
+
+![alt text](image-4.png)
+
+
+![alt text](image-5.png)
+
+
+
+# Lab 3 (Lab_ID=2)
+
+1. https://codelabs.developers.google.com/codelabs/survivor-network/instructions#0
+
+```
+In disaster response scenarios, coordinating survivors with different skills, resources, and needs across multiple locations requires intelligent data management and search capabilities. This workshop teaches you to build a production AI system that combines:
+
+🗄️ Graph Database (Spanner): Store complex relationships between survivors, skills, and resources
+🔍 AI-Powered Search: Semantic + keyword hybrid search using embeddings
+📸 Multimodal Processing: Extract structured data from images, text, and video
+🤖 Multi-Agent Orchestration: Coordinate specialized agents for complex workflows
+🧠 Long-Term Memory: Personalization with Vertex AI Memory Bank
+
+```
+
+![alt text](image-6.png)
+
+
+
+![alt text](image-7.png)
+
+```
+Capture : Multimodel processing :
+
+Graph RAG:
+
+ADK
+
+Agent Memeory :
+
+```
