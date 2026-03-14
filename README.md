@@ -1,6 +1,14 @@
+# Labs Info 
+1. Day1 Lab ID: production-ready-ai-nk8aokvpxh ($5)
+2. Day2 Lab ID: waybackhome-v7j3phccypg8u76md9 ($20)
+
 # multimodel_google_meetup_dc
 Google AI 
 
+
+# Credis Emails
+1. anjaiahspr@gmail.com
+2. anjaiahsprcloud@gmail.com
 
 # Google ADK & References
 1. https://github.com/arjunprabhulal/google-adk-masterclass/tree/main/15-mcp-deep-dive
@@ -147,3 +155,31 @@ ADK
 Agent Memeory :
 
 ```
+
+# LAB 4 (LABID=3)
+
+1. https://codelabs.developers.google.com/way-back-home-level-3/instructions#2
+
+![alt text](image-8.png)
+
+
+```
+
+Full-Duplex vs. Half-Duplex
+To understand why we need this for the Neural Sync, you have to understand the flow of data:
+
+Half-Duplex (Standard HTTP): Like a walkie-talkie. One person speaks, says "Over," and then the other person can speak. You cannot listen and talk at the same time.
+Full-Duplex (WebSocket): Like a face-to-face conversation. Data flows in both directions simultaneously. While your browser is pushing video frames and audio samples up to the AI, the AI can push voice responses and tool commands down to you at the exact same time.
+
+
+```
+
+![alt text](image-9.png)
+
+
+# LAB 5 (LABID=4)
+1. https://codelabs.developers.google.com/way-back-home-level-4/instructions#1
+
+
+# LAB 6 (LABID=5)
+1. https://codelabs.developers.google.com/way-back-home-level-5/instructions#0
